@@ -1,0 +1,54 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "self preservation"
+theme = "hermit"
+
+rssLimit = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+enableEmoji = true  # https://gohugo.io/functions/emojify/
+
+# disqusShortname = "yourdiscussshortname"
+
+[author]
+  name = "vupis"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+
+  homeSubtitle = "don't give up. keep going."
+  relatedPosts = true  
+  code_copy_button = true 
+
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  themeColor = "#494f5c"
+
+[menu]
+
+  [[menu.main]]
+    name = "posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "categories"
+    url = "categories/"
+    weight = 20
+
+  [[menu.main]]
+    name = "tags"
+    url = "tags/"
+    weight = 30
+  
+  [[menu.main]]
+    name = "about"
+    url = "about-hugo/"
+    weight = 80
+
+  
