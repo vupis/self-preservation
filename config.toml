@@ -1,6 +1,7 @@
-baseURL = "https://example.com"
 languageCode = "en-us"
 title = "self preservation"
+baseURL = "/"
+themesDir = "themes"
 theme = "hermit"
 
 rssLimit = 10  # Maximum number of items in the RSS feed.
